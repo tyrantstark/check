@@ -1,7 +1,7 @@
 import Router from 'vue-router';
 import AppHome from '@/components//AppHome.vue';
 import About from '@/components/About.vue';
-import Register from '@/components/Register.vue';
+import RegisterPage from '@/components/RegisterPage.vue';
 import MealMenu from '@/components/MealMenu.vue';
 import MealCart from '@/components/Cart.vue';
 // import LoginPage from '@/components/login.vue';
@@ -22,7 +22,7 @@ const router = new Router({
         {
             name: 'register',
             path: '/register',
-            component: Register
+            component: RegisterPage
         },
         // {
         //     name: 'signin',
