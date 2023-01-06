@@ -3,5 +3,7 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     proxy: "http://localhost:4000",
+    compress: true,
+    disableHostCheck: true,
   },
 }
