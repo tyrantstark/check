@@ -1,7 +1,7 @@
 import Router from 'vue-router';
 import AppHome from '@/components//AppHome.vue';
-import AboutPage from '@/components/About.vue';
-import RegisterPage from '@/components/Register.vue';
+import About from '@/components/About.vue';
+import Register from '@/components/Register.vue';
 import MealMenu from '@/components/MealMenu.vue';
 import MealCart from '@/components/Cart.vue';
 // import LoginPage from '@/components/login.vue';
@@ -17,12 +17,12 @@ const router = new Router({
         {
             name: 'aboutUs', 
             path: '/about',
-            component: AboutPage
+            component: About
         },
         {
             name: 'register',
             path: '/register',
-            component: RegisterPage
+            component: Register
         },
         // {
         //     name: 'signin',
